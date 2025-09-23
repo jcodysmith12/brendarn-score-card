@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Honeymoon Drink Log</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="player-header">
+    <img src="images/buddy.jpg" alt="Buddy Headshot" class="headshot">
+    <div class="player-info">
+      <h1>John “The Tank” Smith</h1>
+      <p>Honeymoon Location: Bahamas 🏝️</p>
+      <p>Position: Professional Partier</p>
+    </div>
+  </div>
+
+  <div class="stats-section">
+    <h2>Drink Log</h2>
+    <table class="stats-table">
+      <thead>
+        <tr>
+          <th>Day</th>
+          <th>Beer</th>
+          <th>Wine</th>
+          <th>Cocktails</th>
+          <th>Shots</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Monday</td>
+          <td>3</td>
+          <td>1</td>
+          <td>2</td>
+          <td>0</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>Tuesday</td>
+          <td>2</td>
+          <td>0</td>
+          <td>4</td>
+          <td>1</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td>Wednesday</td>
+          <td>5</td>
+          <td>2</td>
+          <td>3</td>
+          <td>2</td>
+          <td>12</td>
+        </tr>
+        <!-- keep adding rows -->
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Total</td>
+          <td>10</td>
+          <td>3</td>
+          <td>9</td>
+          <td>3</td>
+          <td>25</td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+</body>
+</html>
